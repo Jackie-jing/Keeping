@@ -1,0 +1,212 @@
+/*
+Theme Name: Keeping
+Theme URI: https://www.aihouyuan.com
+Author: Cheng Peng Jing
+Author URI: https://www.aihouyuan.com
+Description: Keeping aims to build yourself wonderfull blog.
+Version: 1.0
+Tags: black, gray, pink, white, dark, light, one-columns, auto-layout, responsive-layout, accessibility-ready, custom-background.
+*/
+
+body,div,section,html,ul,li,p{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(images/background.png);
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+	color: #000;
+}
+.logo{
+	padding-top: 80px;
+	font-size: 10px;
+}
+.logo>p{
+	margin-top: 15px;
+	font-size: 12px;
+	color: #666;
+}
+.navgater a{
+	background-color: transparent;
+    border: 1px solid #f1346f;
+    color: #f1346f;
+    margin-top: 15px;
+}
+.navgater a:hover{
+	background-color: #f1346f;
+	color: #fff;
+	border:none;
+}
+.articlebar{
+	margin:30px -15px 0 -15px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #999;
+}
+.articlebar>span{
+	margin: 0 10px;
+	font-size: 12px;
+}
+.article{
+	padding:30px 15px 0 15px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.page{
+	margin-bottom: 60px;
+}
+.page a{
+	background-color: transparent;
+    border: 1px solid #f1346f;
+    color: #f1346f;
+    margin-top: 15px;
+}
+.page a:hover{
+	background-color: #f1346f;
+	color: #fff;
+	border:none;
+}
+footer{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.footer a{
+	color: #f1f1f1;
+}
+.comment>h2{
+	color: #666;
+}
+.title a{
+	color: #666;
+	text-decoration: none;
+}
+.tags a,.discuss a{
+	text-decoration: none;
+	color: #666;
+}
+.tags a:hover{
+	color: #000;
+}
+textarea{
+	width: 800px;
+	min-height: 100px;
+}
+
+/*comment*/
+.comment-box{
+	width: 830px;
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+li{
+	list-style-type: none;
+}
+.comment-list{
+	width: 830px;
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+.comment-btn{
+	margin-bottom: 30px;
+	border: none;
+	font-size: 12px;
+	padding: 8px;
+	margin-top: 10px;
+	background-color: #000;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8;
+	color: #ace360;
+}
+.your-form-class{
+	background-color: red;
+
+}
+.comment-form-author{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #444;
+}
+.comment-form-author input,.comment-form-email input,.comment-form-url input{
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #444;
+	padding: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+
+}
+
+/*search box*/
+/*.bg-box{
+	height: 100%;
+	width: 100%;
+	background-color: #333;
+}*/
+.form-box{
+	position: relative;
+}
+.search-logo{
+	position: absolute;
+	top: 100px;
+	left: 110px;
+}
+.search-text{
+	border: none;
+	height: 40px;
+	width: 500px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+	line-height: 40px;
+	outline: none;
+	position: absolute;
+	top: 106px;
+	left: 260px;
+}
+.search-submit{
+	border: none;
+	background-color: #f52e5c;
+	background-image: url(images/search.png);
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top: 106px;
+	left: 760px;
+}
+.commont-submit{
+	margin-top: 30px;
+}
+
+/*media checklist*/
+/*Iphone or little screen*/
+@media (max-width: 768px){
+
+}
+
+/*middle screen*/
+@media (min-width: 768px) and (max-width: 992px){
+
+}
+
+/*large screen*/
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+
+
+
+
+
+

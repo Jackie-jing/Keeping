@@ -1,0 +1,26 @@
+<div class="comment-list">
+  <?php wp_list_comments(); ?> 
+</div>
+
+<div class="comment-box">     
+<?php     
+   comment_form(
+    array(
+    'fields' => array(
+    'title_reply' => '<p>留言我们</p>',
+    'author' => '<p class="comment-form-author"><input type="text" aria-required="true" size="30" value="'.$comment_author.'" name="author" id="author"><label for="author">昵称</label> <span class="required">(必填)</span></p>',
+    'email' => '<p class="comment-form-email"><input type="text" aria-required="true" size="30" value="'.$comment_author_email.'" name="email" id="email"><label for="email">邮箱</label> <span class="required">(必填)</span></p>',
+    'url' => '<p class="comment-form-url"><input type="text" size="30" value="'.$comment_author_url.'" name="url" id="url"><label for="url">站点</label></p>',
+    'label_submit'=>'<p>确kk定</p>',
+    
+    )
+    )
+    ); 
+   $comments_args = array(
+    'fields' =>  $fields,
+    'title_reply'=>'评论一下',
+    'label_submit' => '发射！'
+);
+?><!--评论框 -->
+ </div>
+
